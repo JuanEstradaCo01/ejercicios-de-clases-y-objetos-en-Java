@@ -22,6 +22,7 @@ public class Autor {
         }
     }
 
+    // Clase MAIN
     public static void main(String[] args) {
         String nombre;
         String nacionalidad;

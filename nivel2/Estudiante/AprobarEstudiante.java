@@ -28,6 +28,7 @@ public class AprobarEstudiante {
 
     }
 
+    // Clase MAIN
     public static void main(String[] args) {
 
         // Agrego varios estudiantes ya predefinidos

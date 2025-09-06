@@ -22,6 +22,7 @@ public class InfoLibro {
 
     }
 
+    // Clase MAIN
     public static void main(String[] args) {
 
         // Creo varios libros ya predefinidos
