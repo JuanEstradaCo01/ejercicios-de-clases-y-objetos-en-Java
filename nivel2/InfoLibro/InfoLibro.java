@@ -1,6 +1,26 @@
-package nivel2.InfoLibro;
+package nivel2.InfoLibro; //Se comenta para compilar
 
 public class InfoLibro {
+
+    public static class Libro {
+
+        String titulo;
+        String autor;
+        int paginas;
+
+        Libro(String titulo, String autor, int paginas) {
+            this.titulo = titulo;
+            this.autor = autor;
+            this.paginas = paginas;
+        }
+
+        void mostrarInfo() {
+            System.out.println(
+                    String.format("El libro '%s' tiene %d paginas y su autor es %s.", this.titulo, this.paginas,
+                            this.autor));
+        }
+
+    }
 
     public static void main(String[] args) {
 

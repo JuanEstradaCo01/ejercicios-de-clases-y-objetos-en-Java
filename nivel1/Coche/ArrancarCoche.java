@@ -1,8 +1,24 @@
-package nivel1.Coche;
+package nivel1.Coche; //Se comenta para compilar
 
 import java.util.Scanner;
 
 public class ArrancarCoche {
+
+    public static class Coche {
+
+        public String marca;
+        public int modelo;
+
+        Coche(String marca, int modelo) {
+            this.marca = marca;
+            this.modelo = modelo;
+        }
+
+        void arrancar() {
+            System.out.println(String.format("El coche está arrancando, es un %s modelo %d.", this.marca, this.modelo));
+        }
+
+    }
 
     public static void main(String[] args) {
 
